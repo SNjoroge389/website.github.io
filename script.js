@@ -1,31 +1,4 @@
-// JS Basics Examples
-function showArray() {
-  const arr = ["JS", "HTML", "CSS"];
-  document.getElementById("output").textContent = "Array: " + arr.join(" | ");
-}
 
-function showLoop() {
-  let output = "";
-  for (let i = 1; i <= 5; i++) {
-    output += `Number ${i}<br>`;
-  }
-  document.getElementById("output").innerHTML = output;
-}
-
-function checkCondition() {
-  const hour = new Date().getHours();
-  let message = "";
-
-  if (hour < 12) {
-    message = "Good morning!";
-  } else if (hour < 18) {
-    message = "Good afternoon!";
-  } else {
-    message = "Good evening!";
-  }
-
-  document.getElementById("output").textContent = message;
-}
 
 // Clock Widget
 const clockDiv = document.getElementById("clock");
