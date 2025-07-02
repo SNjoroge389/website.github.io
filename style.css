@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+header, main {
+  padding: 1rem;
+  margin: auto;
+  max-width: 800px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-bottom: 2px solid #ccc;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border: none;
+  cursor: pointer;
+  background-color: #007acc;
+  color: white;
+  border-radius: 4px;
+}
+
+select, input[type="checkbox"] {
+  margin-left: 0.5rem;
+}
+
+#output {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+#clock {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.ocean {
+  background: #e0f7fa;
+  color: #006064;
+}
+
+.sunset {
+  background: #fff3e0;
+  color: #bf360c;
+}
+
+.default {
+  background: white;
+  color: black;
+}
