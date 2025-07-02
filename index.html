@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My JS Practice Clock App</title>
+  <link rel="icon" href="https://zmuti-class-labs.github.io/JSLab/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="default">
+  <header>
+    <h1>JavaScript Basics + Clock Widget</h1>
+    <div>
+      <label for="theme-select">Theme:</label>
+      <select id="theme-select">
+        <option value="default">Default</option>
+        <option value="ocean">Ocean</option>
+        <option value="sunset">Sunset</option>
+      </select>
+
+      <label for="mode-toggle">Dark Mode:</label>
+      <input type="checkbox" id="mode-toggle" />
+    </div>
+  </header>
+
+  <main>
+    <section id="js-basics">
+      <h2>JS Basics Demo</h2>
+      <button onclick="showArray()">Array Example</button>
+      <button onclick="showLoop()">Loop Example</button>
+      <button onclick="checkCondition()">Condition Example</button>
+      <div id="output"></div>
+    </section>
+
+    <section id="clock-widget">
+      <h2>Clock Widget</h2>
+      <label for="timezone">Select Time Zone:</label>
+      <select id="timezone"></select>
+      <div id="clock"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
